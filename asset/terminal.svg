@@ -1,59 +1,58 @@
-<svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Animated terminal banner for syahmiharith</title>
-  <desc id="desc">A dark terminal window with animated command text and a blinking cursor.</desc>
+<svg width="1000" height="280" viewBox="0 0 1000 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated engineering profile banner</title>
+  <desc id="desc">A terminal-style banner cycling through backend engineering, cloud deployment, and open-source contribution messages.</desc>
   <style>
-    .bg { fill: #0b1220; }
-    .panel { fill: #101827; stroke: #263244; stroke-width: 1; }
-    .bar { fill: #172033; }
-    .muted { fill: #7d8da8; font: 500 16px Consolas, Monaco, monospace; }
-    .prompt { fill: #2dd4bf; font: 700 20px Consolas, Monaco, monospace; }
-    .text { fill: #e5eefc; font: 700 20px Consolas, Monaco, monospace; }
-    .soft { fill: #a9b8d0; font: 500 16px Consolas, Monaco, monospace; }
-    .cursor { fill: #f8fafc; }
-    .type1 { animation: show1 9s infinite; }
-    .type2 { animation: show2 9s infinite; opacity: 0; }
-    .type3 { animation: show3 9s infinite; opacity: 0; }
-    .cursor { animation: blink 1s steps(1) infinite; }
-    @keyframes show1 {
-      0%, 28% { opacity: 1; }
-      34%, 100% { opacity: 0; }
+    .bg { fill: #0d1117; }
+    .panel { fill: #111827; stroke: #30363d; stroke-width: 1; }
+    .bar { fill: #161b22; }
+    .muted { fill: #8b949e; font: 500 16px Consolas, Monaco, monospace; }
+    .prompt { fill: #2dd4bf; font: 700 22px Consolas, Monaco, monospace; }
+    .line { fill: #f0f6fc; font: 700 24px Consolas, Monaco, monospace; }
+    .sub { fill: #c9d1d9; font: 500 18px Consolas, Monaco, monospace; }
+    .cursor { fill: #2dd4bf; animation: blink 1s steps(1) infinite; }
+    .a { animation: showA 12s infinite; }
+    .b { opacity: 0; animation: showB 12s infinite; }
+    .c { opacity: 0; animation: showC 12s infinite; }
+    @keyframes showA {
+      0%, 27% { opacity: 1; transform: translateY(0); }
+      33%, 100% { opacity: 0; transform: translateY(-6px); }
     }
-    @keyframes show2 {
-      0%, 33% { opacity: 0; }
-      39%, 61% { opacity: 1; }
-      67%, 100% { opacity: 0; }
+    @keyframes showB {
+      0%, 31% { opacity: 0; transform: translateY(6px); }
+      37%, 60% { opacity: 1; transform: translateY(0); }
+      66%, 100% { opacity: 0; transform: translateY(-6px); }
     }
-    @keyframes show3 {
-      0%, 66% { opacity: 0; }
-      72%, 96% { opacity: 1; }
-      100% { opacity: 0; }
+    @keyframes showC {
+      0%, 64% { opacity: 0; transform: translateY(6px); }
+      70%, 94% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(-6px); }
     }
     @keyframes blink {
-      0%, 48% { opacity: 1; }
-      49%, 100% { opacity: 0; }
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
     }
   </style>
-  <rect class="bg" width="900" height="260" rx="16"/>
-  <rect class="panel" x="35" y="32" width="830" height="196" rx="12"/>
-  <rect class="bar" x="35" y="32" width="830" height="42" rx="12"/>
-  <circle cx="62" cy="53" r="6" fill="#ef4444"/>
-  <circle cx="84" cy="53" r="6" fill="#f59e0b"/>
-  <circle cx="106" cy="53" r="6" fill="#22c55e"/>
-  <text class="muted" x="450" y="59" text-anchor="middle">github-profile/readme.md</text>
-  <text class="prompt" x="72" y="118">$</text>
-  <g class="type1">
-    <text class="text" x="100" y="118">build profile --interactive</text>
-    <text class="soft" x="72" y="158">Loading collapsible sections, live stats, and project links...</text>
+  <rect class="bg" width="1000" height="280" rx="18"/>
+  <rect class="panel" x="48" y="36" width="904" height="208" rx="14"/>
+  <rect class="bar" x="48" y="36" width="904" height="46" rx="14"/>
+  <circle cx="78" cy="59" r="7" fill="#ff5f57"/>
+  <circle cx="103" cy="59" r="7" fill="#ffbd2e"/>
+  <circle cx="128" cy="59" r="7" fill="#28c840"/>
+  <text class="muted" x="500" y="65" text-anchor="middle">syahmiharith / production-style systems</text>
+  <text class="prompt" x="82" y="130">$</text>
+  <g class="a">
+    <text class="line" x="116" y="130">build --backend --production-style</text>
+    <text class="sub" x="82" y="174">NestJS · PostgreSQL · Redis · Stripe · Docker · GCP</text>
   </g>
-  <g class="type2">
-    <text class="text" x="100" y="118">open command-palette</text>
-    <text class="soft" x="72" y="158">whoami · now · values · collab</text>
+  <g class="b">
+    <text class="line" x="116" y="130">deploy --cloud-run --documented</text>
+    <text class="sub" x="82" y="174">Swagger docs · Postman flows · Terraform staging · smoke tests</text>
   </g>
-  <g class="type3">
-    <text class="text" x="100" y="118">ship useful work</text>
-    <text class="soft" x="72" y="158">Clean READMEs. Practical projects. Better every commit.</text>
+  <g class="c">
+    <text class="line" x="116" y="130">contribute --open-source</text>
+    <text class="sub" x="82" y="174">Career-Ops PRs · AI tooling · evaluation pipelines · CI docs</text>
   </g>
-  <rect class="cursor" x="352" y="100" width="11" height="24" rx="2"/>
-  <path d="M62 192H838" stroke="#263244" stroke-width="1"/>
-  <text class="soft" x="72" y="213">syahmiharith@github</text>
+  <rect class="cursor" x="560" y="107" width="13" height="29" rx="2"/>
+  <path d="M82 204H918" stroke="#30363d"/>
+  <text class="muted" x="82" y="226">status: open to SWE internships · backend / full-stack</text>
 </svg>
