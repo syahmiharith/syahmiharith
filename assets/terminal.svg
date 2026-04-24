@@ -1,0 +1,58 @@
+<svg width="1000" height="280" viewBox="0 0 1000 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated engineering profile banner</title>
+  <desc id="desc">A terminal-style banner cycling through backend engineering, cloud deployment, and open-source contribution messages.</desc>
+  <style>
+    .bg { fill: #0d1117; }
+    .panel { fill: #111827; stroke: #30363d; stroke-width: 1; }
+    .bar { fill: #161b22; }
+    .muted { fill: #8b949e; font: 500 16px Consolas, Monaco, monospace; }
+    .prompt { fill: #2dd4bf; font: 700 22px Consolas, Monaco, monospace; }
+    .line { fill: #f0f6fc; font: 700 24px Consolas, Monaco, monospace; }
+    .sub { fill: #c9d1d9; font: 500 18px Consolas, Monaco, monospace; }
+    .cursor { fill: #2dd4bf; animation: blink 1s steps(1) infinite; }
+    .a { animation: showA 12s infinite; }
+    .b { opacity: 0; animation: showB 12s infinite; }
+    .c { opacity: 0; animation: showC 12s infinite; }
+    @keyframes showA {
+      0%, 27% { opacity: 1; transform: translateY(0); }
+      33%, 100% { opacity: 0; transform: translateY(-6px); }
+    }
+    @keyframes showB {
+      0%, 31% { opacity: 0; transform: translateY(6px); }
+      37%, 60% { opacity: 1; transform: translateY(0); }
+      66%, 100% { opacity: 0; transform: translateY(-6px); }
+    }
+    @keyframes showC {
+      0%, 64% { opacity: 0; transform: translateY(6px); }
+      70%, 94% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(-6px); }
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+  </style>
+  <rect class="bg" width="1000" height="280" rx="18"/>
+  <rect class="panel" x="48" y="36" width="904" height="208" rx="14"/>
+  <rect class="bar" x="48" y="36" width="904" height="46" rx="14"/>
+  <circle cx="78" cy="59" r="7" fill="#ff5f57"/>
+  <circle cx="103" cy="59" r="7" fill="#ffbd2e"/>
+  <circle cx="128" cy="59" r="7" fill="#28c840"/>
+  <text class="muted" x="500" y="65" text-anchor="middle">syahmiharith / production-style systems</text>
+  <text class="prompt" x="82" y="130">$</text>
+  <g class="a">
+    <text class="line" x="116" y="130">build --backend --production-style</text>
+    <text class="sub" x="82" y="174">NestJS · PostgreSQL · Redis · Stripe · Docker · GCP</text>
+  </g>
+  <g class="b">
+    <text class="line" x="116" y="130">deploy --cloud-run --documented</text>
+    <text class="sub" x="82" y="174">Swagger docs · Postman flows · Terraform staging · smoke tests</text>
+  </g>
+  <g class="c">
+    <text class="line" x="116" y="130">contribute --open-source</text>
+    <text class="sub" x="82" y="174">Career-Ops PRs · AI tooling · evaluation pipelines · CI docs</text>
+  </g>
+  <rect class="cursor" x="560" y="107" width="13" height="29" rx="2"/>
+  <path d="M82 204H918" stroke="#30363d"/>
+  <text class="muted" x="82" y="226">status: open to SWE internships · backend / full-stack</text>
+</svg>
