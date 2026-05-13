@@ -8,11 +8,6 @@
   TypeScript · NestJS · PostgreSQL · Redis · Docker · GCP · AI tooling
 </p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/zulsyahmi-zulkefli-4087b2234">LinkedIn</a> ·
-  <a href="mailto:zsyhmizlkfli12@gmail.com">Email</a> 
-</p>
-
 ---
 
 ## Featured Proof
@@ -62,8 +57,3 @@ I contributed to [santifer/career-ops](https://github.com/santifer/career-ops), 
 | Cloud and DevOps | Docker, GitHub Actions, Terraform, GCP Cloud Run, Cloud SQL, Secret Manager |
 | Frontend | React, Next.js, Tailwind CSS |
 | AI tooling | Agent workflows, evaluation pipelines, LLM-assisted automation |
-
-## Contact
-
-- [LinkedIn](https://www.linkedin.com/in/zulsyahmi-zulkefli-4087b2234)
-- [Email](mailto:zsyhmizlkfli12@gmail.com)
