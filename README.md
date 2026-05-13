@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/zulsyahmi-zulkefli-4087b2234">LinkedIn</a> ·
-  <a href="mailto:zsyhmizlkfli12@gmail.com">Email</a> ·
+  <a href="mailto:zsyhmizlkfli12@gmail.com">Email</a> 
 </p>
 
 ---
