@@ -11,8 +11,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/zulsyahmi-zulkefli-4087b2234">LinkedIn</a> ·
   <a href="mailto:zsyhmizlkfli12@gmail.com">Email</a> ·
-  <a href="https://github.com/syahmiharith">GitHub</a> ·
-  <a href="https://github.com/santifer/career-ops/pulls?q=author%3Asyahmiharith">OSS Contributions</a>
 </p>
 
 ---
@@ -69,4 +67,3 @@ I contributed to [santifer/career-ops](https://github.com/santifer/career-ops), 
 
 - [LinkedIn](https://www.linkedin.com/in/zulsyahmi-zulkefli-4087b2234)
 - [Email](mailto:zsyhmizlkfli12@gmail.com)
-- [GitHub](https://github.com/syahmiharith)
