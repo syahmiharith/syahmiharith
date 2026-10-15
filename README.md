@@ -1,7 +1,7 @@
 <h1 align="center">Zulsyahmi Zulkefli</h1>
 
 <p align="center">
-  Computer Science student at Sungkyunkwan University building backend and full-stack systems with APIs, auth, RBAC, cloud deployment, and testing.
+  Computer Science student at Sungkyunkwan University (SKKU), graduating February 2027. Available for full-time roles from March 2027. I build backend and full-stack systems with APIs, PostgreSQL, and testing.
 </p>
 
 <p align="center">
@@ -14,39 +14,18 @@
 
 | Project | Signal | Proof |
 | --- | --- | --- |
-| [SaaS Starter API](https://github.com/syahmiharith/saas-starter-api) | Production-style multi-tenant backend with auth, RBAC, API keys, billing, quotas, audit logs, tests, Docker, Terraform, and GCP staging. | [Live health](https://saas-starter-api-staging-6xiqyp324q-uc.a.run.app/api/v1/health), [Swagger](https://saas-starter-api-staging-6xiqyp324q-uc.a.run.app/docs), [architecture](https://github.com/syahmiharith/saas-starter-api/blob/main/docs/architecture.md), [walkthrough](https://github.com/syahmiharith/saas-starter-api/blob/main/docs/api-walkthrough.md) |
-| [Career-Ops OSS Contributions](https://github.com/santifer/career-ops/pulls?q=author%3Asyahmiharith) | Merged contribution to a large open-source AI job-search automation project, with maintainer feedback and scope reduction for long-term maintainability. | [Merged Codex support PR](https://github.com/santifer/career-ops/pull/41), [authored PRs](https://github.com/santifer/career-ops/pulls?q=author%3Asyahmiharith) |
-| [Receipt-to-Form Auto-Fill](https://github.com/syahmiharith/TP-Intern) | Gemini-powered AI workflow with human review, validation, rate limiting, deterministic tests, and Vercel deployment. | [Live demo](https://tp-intern-malaysia.vercel.app/), [README](https://github.com/syahmiharith/TP-Intern), [testing guide](https://github.com/syahmiharith/TP-Intern/blob/main/TESTING.md) |
-
-## SaaS Starter API
-
-[SaaS Starter API](https://github.com/syahmiharith/saas-starter-api) is my strongest backend project: a production-style multi-tenant SaaS API built with NestJS, PostgreSQL, Prisma, Redis/BullMQ, Stripe sandbox webhooks, Docker, GitHub Actions, Terraform, and GCP staging.
-
-| Area | Implementation signal |
-| --- | --- |
-| Authentication | Email/password auth, JWT access tokens, refresh token rotation |
-| Tenancy | Organization-scoped billing, usage, API keys, members, and audit logs |
-| Authorization | Owner/admin/member/viewer RBAC |
-| Billing | Stripe checkout, billing portal, webhook idempotency |
-| Infrastructure | Docker, GitHub Actions, Terraform, Cloud Run, Cloud SQL, Redis |
-| Quality | Unit, integration, e2e, and staging smoke test paths |
-
-Proof links:
-
-- [Live health check](https://saas-starter-api-staging-6xiqyp324q-uc.a.run.app/api/v1/health)
-- [Swagger/OpenAPI docs](https://saas-starter-api-staging-6xiqyp324q-uc.a.run.app/docs)
-- [Postman collection](https://github.com/syahmiharith/saas-starter-api/tree/main/collections/postman)
-- [Architecture docs](https://github.com/syahmiharith/saas-starter-api/blob/main/docs/architecture.md)
-- [API walkthrough](https://github.com/syahmiharith/saas-starter-api/blob/main/docs/api-walkthrough.md)
+| [Inventory Requests](https://github.com/syahmiharith/bloomthis-inventory-request-module) | Technical assessment/demo: inventory requests, approval, stock fulfillment, and seeded employee/admin roles. Demo authentication; not a production deployment claim. | [Request service](https://github.com/syahmiharith/bloomthis-inventory-request-module/blob/main/features/requests/services/request.service.ts), [integration tests](https://github.com/syahmiharith/bloomthis-inventory-request-module/blob/main/tests/integration/fulfill-request.test.ts) |
+| [AI Receipt Extractor](https://github.com/syahmiharith/TP-Intern) | Receipt extraction with human review, validation, and deterministic mocked tests; built for the TP Malaysia AI Intern assessment. | [Recorded demo](https://github.com/syahmiharith/TP-Intern/blob/main/docs/demo/syahmiharith-ai-intern-assessment.mp4), [testing guide](https://github.com/syahmiharith/TP-Intern/blob/main/TESTING.md) |
+| [Career-Ops contributions](https://github.com/career-ops-hq/career-ops/pulls?q=author%3Asyahmiharith) | Two merged contributions to the upstream open-source project. | [Codex support #41](https://github.com/career-ops-hq/career-ops/pull/41), [structured evaluation summaries #444](https://github.com/career-ops-hq/career-ops/pull/444) |
 
 ## Open Source
 
-I contributed to [santifer/career-ops](https://github.com/santifer/career-ops), a large open-source AI job-search automation project.
+I contributed to [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops), an upstream open-source job-search automation project.
 
-| PR | Status | Signal |
+| PR | Status | Contribution |
 | --- | --- | --- |
-| [Add Codex support to Career-Ops](https://github.com/santifer/career-ops/pull/41) | Merged | Added Codex workflow support while preserving the upstream architecture and adapting to maintainer feedback. |
-| [feat: add structured machine summaries to evaluations](https://github.com/santifer/career-ops/pull/444) | Open | Active follow-up work for structured machine-readable evaluation summaries. |
+| [Add Codex support to Career-Ops #41](https://github.com/career-ops-hq/career-ops/pull/41) | Merged April 8, 2026 | Added Codex workflow support while preserving the upstream architecture and adapting to maintainer feedback. |
+| [Structured machine summaries #444](https://github.com/career-ops-hq/career-ops/pull/444) | Merged May 22, 2026 | Added structured machine-readable evaluation summaries. |
 
 ## Technical Focus
 
