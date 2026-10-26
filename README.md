@@ -14,8 +14,8 @@
 
 | Project | Signal | Proof |
 | --- | --- | --- |
-| [Inventory Requests](https://github.com/syahmiharith/inventory-request-system) | Technical assessment/demo: inventory requests, approval, stock fulfillment, and seeded employee/admin roles. Demo authentication; not a production deployment claim. | [Request service](https://github.com/syahmiharith/inventory-request-system/blob/main/features/requests/services/request.service.ts), [integration tests](https://github.com/syahmiharith/inventory-request-system/blob/main/tests/integration/fulfill-request.test.ts) |
-| [AI Receipt Extractor](https://github.com/syahmiharith/receipt-to-form) | Receipt extraction with human review, validation, and deterministic mocked tests; built for the TP Malaysia AI Intern assessment. | [Recorded demo](https://github.com/syahmiharith/receipt-to-form/blob/main/docs/demo/syahmiharith-ai-intern-assessment.mp4), [testing guide](https://github.com/syahmiharith/receipt-to-form/blob/main/TESTING.md) |
+| [Inventory Request System](https://github.com/syahmiharith/inventory-request-system) | Inventory request and fulfillment demo with approval workflows, transactional stock deduction, and seeded employee/admin roles. Demo authentication; not a company production system. | [Request service](https://github.com/syahmiharith/inventory-request-system/blob/main/features/requests/services/request.service.ts), [integration tests](https://github.com/syahmiharith/inventory-request-system/blob/main/tests/integration/fulfill-request.test.ts) |
+| [Receipt-to-Form](https://github.com/syahmiharith/receipt-to-form) | Receipt extraction with human review, validation, editable fields, and deterministic mocked tests. Portfolio demo; project origin is documented in the repository. | [Review guide](https://github.com/syahmiharith/receipt-to-form/blob/main/docs/REVIEW_GUIDE.md), [testing guide](https://github.com/syahmiharith/receipt-to-form/blob/main/TESTING.md) |
 | [Career-Ops contributions](https://github.com/career-ops-hq/career-ops/pulls?q=author%3Asyahmiharith) | Two merged contributions to the upstream open-source project. | [Codex support #41](https://github.com/career-ops-hq/career-ops/pull/41), [structured evaluation summaries #444](https://github.com/career-ops-hq/career-ops/pull/444) |
 
 ## Open Source
@@ -36,3 +36,4 @@ I contributed to [career-ops-hq/career-ops](https://github.com/career-ops-hq/car
 | Cloud and DevOps | Docker, GitHub Actions, Terraform, GCP Cloud Run, Cloud SQL, Secret Manager |
 | Frontend | React, Next.js, Tailwind CSS |
 | AI tooling | Agent workflows, evaluation pipelines, LLM-assisted automation |
+
