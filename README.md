@@ -1,39 +1,26 @@
-<h1 align="center">Zulsyahmi Zulkefli</h1>
+# Zulsyahmi Zulkefli
 
-<p align="center">
-  Computer Science student at Sungkyunkwan University (SKKU), graduating February 2027. Available for full-time roles from March 2027. I build backend and full-stack systems with APIs, PostgreSQL, and testing.
-</p>
+Software for the everyday. Shared expenses, reviewed receipts, and reliable operations.
 
-<p align="center">
-  TypeScript · NestJS · PostgreSQL · Redis · Docker · GCP · AI tooling
-</p>
+## Selected work
 
----
+| Project | What it explores | Try it | Inspect it |
+| --- | --- | --- | --- |
+| **01 · SplitFlow** | Shared costs, clearer agreements. Interactive prototype with seeded groups and payment review. | [Live demo](https://splitflow-xi.vercel.app/) | [Code](https://github.com/syahmiharith/splitflow) · [Prototype boundaries](https://github.com/syahmiharith/splitflow/blob/main/docs/engineering/PROTOTYPE_BOUNDARIES.md) |
+| **02 · Receipt-to-Form** | Receipt extraction with editable fields and human review. | [Live demo](https://receipt-to-form-syahmiharith.vercel.app/) | [Code](https://github.com/syahmiharith/receipt-to-form) · [Review guide](https://github.com/syahmiharith/receipt-to-form/blob/main/docs/REVIEW_GUIDE.md) |
+| **03 · Inventory Request System** | Requests, approvals and stock fulfillment in an operational demo. | [Live demo](https://inventory-request-system-syahmiharith.vercel.app/) | [Code](https://github.com/syahmiharith/inventory-request-system) · [Fulfillment tests](https://github.com/syahmiharith/inventory-request-system/blob/main/tests/integration/fulfill-request.test.ts) |
 
-## Featured Proof
+These are portfolio demonstrations. SplitFlow uses local prototype state; Inventory uses simulated employee/admin roles. Project origins and historical attribution remain documented in the individual repositories.
 
-| Project | Signal | Proof |
-| --- | --- | --- |
-| [Inventory Request System](https://github.com/syahmiharith/inventory-request-system) | Inventory request and fulfillment demo with approval workflows, transactional stock deduction, and seeded employee/admin roles. Demo authentication; not a company production system. | [Request service](https://github.com/syahmiharith/inventory-request-system/blob/main/features/requests/services/request.service.ts), [integration tests](https://github.com/syahmiharith/inventory-request-system/blob/main/tests/integration/fulfill-request.test.ts) |
-| [Receipt-to-Form](https://github.com/syahmiharith/receipt-to-form) | Receipt extraction with human review, validation, editable fields, and deterministic mocked tests. Portfolio demo; project origin is documented in the repository. | [Review guide](https://github.com/syahmiharith/receipt-to-form/blob/main/docs/REVIEW_GUIDE.md), [testing guide](https://github.com/syahmiharith/receipt-to-form/blob/main/TESTING.md) |
-| [Career-Ops contributions](https://github.com/career-ops-hq/career-ops/pulls?q=author%3Asyahmiharith) | Two merged contributions to the upstream open-source project. | [Codex support #41](https://github.com/career-ops-hq/career-ops/pull/41), [structured evaluation summaries #444](https://github.com/career-ops-hq/career-ops/pull/444) |
+## Open source
 
-## Open Source
+Two merged contributions to [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops):
 
-I contributed to [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops), an upstream open-source job-search automation project.
+- [Codex workflow support · #41](https://github.com/career-ops-hq/career-ops/pull/41) — merged April 8, 2026. Adapted to maintainer feedback while preserving the upstream architecture.
+- [Structured machine-readable evaluation summaries · #444](https://github.com/career-ops-hq/career-ops/pull/444) — merged May 22, 2026.
 
-| PR | Status | Contribution |
-| --- | --- | --- |
-| [Add Codex support to Career-Ops #41](https://github.com/career-ops-hq/career-ops/pull/41) | Merged April 8, 2026 | Added Codex workflow support while preserving the upstream architecture and adapting to maintainer feedback. |
-| [Structured machine summaries #444](https://github.com/career-ops-hq/career-ops/pull/444) | Merged May 22, 2026 | Added structured machine-readable evaluation summaries. |
+## About
 
-## Technical Focus
+Computer Science at Sungkyunkwan University (SKKU). Expected graduation: February 2027. Available for full-time roles from March 2027.
 
-| Area | Tools |
-| --- | --- |
-| Backend | TypeScript, NestJS, Node.js, REST APIs, RBAC, JWT, webhooks |
-| Data | PostgreSQL, Prisma, Redis/BullMQ |
-| Cloud and DevOps | Docker, GitHub Actions, Terraform, GCP Cloud Run, Cloud SQL, Secret Manager |
-| Frontend | React, Next.js, Tailwind CSS |
-| AI tooling | Agent workflows, evaluation pipelines, LLM-assisted automation |
-
+[Let’s talk on LinkedIn](https://www.linkedin.com/in/zsyhmizlkfli/)
