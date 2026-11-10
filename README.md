@@ -1,6 +1,6 @@
 # Software for the everyday.
 
-[Portfolio](https://zsyahmi.dev) · [LinkedIn](https://www.linkedin.com/in/zsyhmizlkfli/)
+[Portfolio](https://zsyahmi.dev) · [LinkedIn](https://www.linkedin.com/in/zsyahmi/)
 
 ## Selected work
 
